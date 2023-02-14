@@ -1,0 +1,32 @@
+<?xml version ="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name = "Luma Automation Test Suite" verbose ="4" thread-count="3" parallel="tests">
+
+
+	<test name ="Luma Login Page Test">
+		<classes>
+			<class name ="com.qa.luma.test.LoginPageTest"/>
+		</classes>
+	</test>
+	<test name ="Luma Accounts Page Test">
+		<classes>
+			<class name ="com.qa.luma.test.AccountsPageTest"/>
+		</classes>
+	</test>
+	<test name ="Luma Search Results Page Test">
+		<classes>
+			<class name ="com.qa.luma.test.SearchResultsPageTest"/>
+		</classes>
+	</test>
+		<test name ="Luma ProductInfo Page Test">
+		<classes>
+			<class name ="com.qa.luma.test.ProductInfoPageTest"/>
+		</classes>
+	</test>
+	<test name ="Luma Create Account Page Test">
+		<classes>
+			<class name ="com.qa.luma.test.CreateAccountPageTest"/>
+		</classes>
+	</test>
+</suite>

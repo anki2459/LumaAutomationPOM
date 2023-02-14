@@ -32,7 +32,7 @@ public class LoginPage
 	public AccountsPage doLogin(String un,String pwd)
 	{
 		//driver.findElement(signInButton).click();
-		System.out.println("Login with username: "+un +" and password : "+pwd);
+		System.out.println("Login with username as : "+un +" and password : "+pwd);
 		eleUtil.doSendKeys(emailId, un);
 		eleUtil.doSendKeys(password, pwd);
 		eleUtil.doActionsClick(loginButton);
